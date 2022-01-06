@@ -22,9 +22,7 @@
         <h1 class="app-name">FETS MOBILE APPLICATION</h1>
         <br />
         <p class="fets-story">
-          FETS mobile app is designed to help solve day to day banking
-          operations and other transactions like generating electricity token,
-          airtimes and utility bill payment on the go
+         FETS mobile app is designed to help solve day to day banking operations and other transactions like generating electricity tokens, airtimes, and utility bill payments on the go
         </p>
         <br />
 
@@ -89,17 +87,17 @@
         <div class="row">
           <div class="col-md-6">
             <p class="target">Primary Given Target Audience</p>
+
+            
             <p class="target-sentence">
-              As Much As The Fets App Was Used By Almost All Demography Of
-              People, It Was Also Very Important To Define A Specific Target
-              Audience To This. <br /><br />
-              We Started By Asking And Defining The Scope And The Future Fets
-              Envisioned And The Only Thing I Could Majorly Point Out Was Most
-              Entrepreneurs In Nigeria Are You Minds Having A Kiosk For Agency
-              Banking, And People Like Me And Other Young Champs That Believes
-              In Tech ( Maybe Lazy Nigerian Youth As They Say Lol) <br /><br />
-              However, I Concluded That Fets, The Primary Target Audience Was
-              The Young Millenials To Generation Z.
+
+
+              The FETS app is used by almost all demography of people. It was mandatory to define a specific target audience.
+               <br /><br />
+                We started by asking and defining the scope of FETS future envisioned. The only thing I could majorly point out was most entrepreneurs in Nigeria are you minds having a kiosk for agency banking, and people like me and other young champs that believe in tech ( maybe lazy Nigerian youth as they say lol) 
+    
+              <br /><br />
+           However, I concluded that FETS’ primary target audience was the young Millenials to generation Z.
             </p>
           </div>
           <div class="col-md-6">
@@ -182,16 +180,7 @@
     <div class="cv">
       <p class="des-approach">Competitive Analysis</p>
       <p class="des-approach-statement">
-        Starting off I compared other modern-day generation agency banks apps
-        which have directly and indirectly induced the culture of transfer,
-        withdrawal, and vas into their system, studied to gain inspiration, and
-        highlighted similar features on other sites that are similar to the
-        features highlighted in the user stories provided by the project
-        management office. I Compared features on each site and identified
-        opportunities for FETS mobile app, this includes expert knowledge and a
-        deeper understanding of their business model. I identified the overall
-        navigation and onboarding process to bring a more exciting user
-        experience.
+     Starting off, I compared other modern-day generation agency banks apps which have directly and indirectly induced the culture of transfer, withdrawal, and vas into their system studied to gain inspiration, highlighted similar features on other sites that are similar to the features highlighted in the user stories provided by the project management office. I Compared features on each site and identified opportunities for fets mobile app. This includes expert knowledge and a deeper understanding of their business model. I identified the overall navigation and onboarding process to bring a more exciting user experience.
       </p>
     </div>
     <div class="cv">
@@ -250,10 +239,7 @@
     <div class="cv">
       <p class="des-approach">Idea Validation + Hypothesis (Surveys)</p>
       <p class="des-approach-statement">
-        Most often the ideas, business needs, and problems highlighted by the
-        product owner and stakeholders are not always the exact problem and as a
-        designer, I have to ensure I am actually solving the right problem, by
-        conducting Idea validation
+       Most often the ideas, business needs, and problems highlighted by the product owner and stakeholders are not always the exact problem and as a designer, I have to ensure I am actually solving the right problem, by conducting Idea validation
       </p>
       <div class="surveys">
         <img src="../assets/validation.png" width="100%" alt="" />
