@@ -42,6 +42,8 @@
         <br />
         <p class="client">Client</p>
         <p class="client-sentence">Digital And Innovation Hub (Itex)</p>
+
+        <a class="client-sentence" style="color:#D82466" href="http://testsite.powerdeals.ng/">Visit WebPage</a>
       </div>
       <br />
       <br />
