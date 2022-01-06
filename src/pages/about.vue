@@ -7,9 +7,7 @@
     </div>
     <div>
       <p class="intro">
-        I am a senior UX designer at Itex Integrated Services. I am Passionate
-        about the ability to identify PROBLEMS opportunities and then translate
-        these ideas through formats such as sketching, rendering, and models.
+        I am a UX designer based in Lagos, Nigeria. I use human-centered design to create digital products and services that are intuitive and accessible. I currently work at Itex Integrated Services to enhance their products and services.
       </p>
     </div>
     <br /><br />
@@ -43,40 +41,27 @@
       <div class="col-md-7">
         <div class="sentences">
           <p>
-            With over 3 years of hands-on experience in building digital
-            products for B2B and B2C services, I specialise in user-centred
-            design, creating brand identities, and User Interfaces (Websites,
-            dashboards, and mobile app design.
+           I have a 3-year wealth of experience in Product design with a core domain knowledge of delivering Payment and Fintech products. I have worked within and also lead cross-functional teams that have delivered products such as agency banking solutions (POS terminals ) to leading commercial banks in Nigerian and East Africa, mobile wallet applications, POS terminal interfaces, merchant systems, and terminal management dashboards. Among the tools I am skilled in using are; Figma, Adobe XD, Adobe Photoshop, sketch, and lotties.
           </p>
         </div>
         <div class="sentences-2">
           <p>
-            I believe people are at the center of every solution (understand
+            I also possess massive experience in not just product designs and implementation but also in digital marketing and website development. In my current role, I and my team of brilliant designers use excellent research, development, and product design skills to identify a user’s precise needs. After this, we utilize our skill sets, training, and experience to come up with the required cutting-edge products. You can bet that a users’ needs will be at the core of all my design thinking. Right now, I am always willing to work on an exciting project where I will genuinely support and develop in every way possible to progress and develop my career further.
           </p>
         </div>
-        <div class="sentences-3">
+        <!-- <div class="sentences-3">
           <p>
             real-user insights and behavior) and I am passionate about helping
             businesses create engaging products that enable users to interact
             directly with their brands.
           </p>
-        </div>
+        </div> -->
         <div class="sentences-4">
           <p>
-            I also possess massive experience in not just product designs and
-            implementation but also in digital marketing and website
-            development. In my current role, I and my team of brilliant
-            designers use excellent research, development, and product design
-            skills to identify a user’s precise needs. After this, we utilize
-            our skill sets, training, and experience to come up with the
-            required cutting-edge products. You can bet that a users’ needs will
-            be at the core of all my design thinking. Right now, I am always
-            willing to work on an exciting project where I will genuinely
-            support and develop in every way possible to progress and develop my
-            career further.
+            I am very creative and expressive with art, detail-oriented, and customer opinion-centric. I can brainstorm and identify design and User experience problems and proffer sustainable solutions.
           </p>
         </div>
-        <div class="sentences-5">
+        <!-- <div class="sentences-5">
           <p>
             Identifying improved approaches and enhanced solutions to business
             challenges are activities that drive and inspire me. Exploration,
@@ -85,11 +70,12 @@
             and grow. my goal is to be on the cutting-edge of industry
             advancements.
           </p>
-        </div>
+        </div> -->
 
         <div class="demola-resume">
-          <p class="worker">Interested In Working With Me?</p>
-          <a href="">
+          <span class="worker">Interested In Working With Me?</span>
+          
+          <a class="ml-3" href="https://drive.google.com/file/d/1WURwEWkDGJkR9BT7yxMWKKZAR0OjtiL7/view?usp=sharing">
             <img src="../assets/download-resume.svg" alt="" />
           </a>
         </div>
@@ -191,7 +177,7 @@
 }
 .demola-resume {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .worker {
   font-family: "Montserrat", sans-serif;
