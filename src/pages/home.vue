@@ -43,6 +43,8 @@
       </div>
     </div>
     <br />
+    <br />
+    <br />
     <!-- projects  -->
     <div class="projects">
       <h1 class="project-highlight">Project Highlights</h1>
