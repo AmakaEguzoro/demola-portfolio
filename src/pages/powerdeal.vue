@@ -22,12 +22,7 @@
         <h1 class="app-name">POWERDEALS WEB APPLICATION</h1>
         <br />
         <p class="fets-story">
-          Power Deals is a new product from ITEX and this Product will enable
-          customers to Pay for Utility services. All the Power Distribution
-          Companies in Nigeria will be added to the platform. One-off customers
-          can pay for services without having to log in however customers can
-          create an account. However, one-off customers need to enter their
-          phone numbers in case of dispute resolution
+         Power Deals is a new product from ITEX. This product enables customers to pay the electrical bill. The Power Distribution Companies in Nigeria have over ten Discos nationwide. This solution is for One-off purchase customers who can pay for services without signing up. However, customers can create an account to enter their phone numbers and other credentials for dispute resolution.
         </p>
       </div>
       <div class="col-md-6 second">
@@ -47,6 +42,8 @@
         <br />
         <p class="client">Client</p>
         <p class="client-sentence">Digital And Innovation Hub (Itex)</p>
+
+        <a class="client-sentence" style="color:#D82466" href="http://testsite.powerdeals.ng/">Visit WebPage</a>
       </div>
       <br />
       <br />
@@ -67,15 +64,8 @@
           <div class="col-md-6">
             <p class="target">Primary Given Target Audience</p>
             <p class="target-sentence">
-              To kick things off, we conducted primary research to gain
-              understanding of the market, product and its challenges. The main
-              aim was to understand and connect user goals and business goals.
-              We then performed competitive analysis (SWOT analysis), this
-              helped to explore the other companies in this sector that are
-              competing with power deal. With this, we were able to identify the
-              strengths, weakness, opportunities and threats in this market
-              niche to he in shaping out a better experience for the users and
-              for the business.
+          I worked closely with my team members to conduct primary research to understand the market, product, and challenges. </p>
+          <p class="target-sentence">The main aim was to understand and connect user goals and business goals. We then performed a competitive analysis (SWOT analysis), helping Powerdeals compete with others in the market. With this, we were able to identify the strengths, weaknesses, opportunities, and threats in this market niche in shaping out a better experience for the users and the business.
             </p>
           </div>
           <div class="col-md-6"></div>

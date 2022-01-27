@@ -36,26 +36,31 @@
         <p class="function">Web Application, Case Study</p>
       </div>
       <p class="explain">
-        Fet Mobile Application Is Designed To Help Solve Problems Of The Day To
-        Day Agency Banking Operations And Transactions Like Withdrawal And
-        Airtime Purchase, And Payment Of Utility Bills All On The Go.
+      Power Deal Is An Electricity Bill Payment Service That Enables You Recharge And Buy Power Conveniently.
       </p>
     </div>
 
     <div class="row extra">
+    
       <div class="col-md-6 terminal">
+        <a href="https://xd.adobe.com/view/798caf82-00f9-4970-9d9a-0528eedd6743-2cdf/">
+
+      
         <img src="../assets/tms.png" class="tms-image" alt="" />
         <p class="project-title">Terminal Management Dashboard</p>
         <p class="terminal-words">
-          Power Deal Is An Electricity Bill Payment Service That Enables You
-          Recharge And Buy Power Conveniently.
+       Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur
         </p>
+          </a>
       </div>
       <div class="col-md-6 uba">
+        <a href="https://xd.adobe.com/view/8f9564d4-f83e-4fbe-8ab8-ecf82240caa4-dac6/">
         <img src="../assets/megalek.png" class="megalek-image" alt="" />
         <p class="project-title">MEGALEK HOSPITAL TMS</p>
         <p class="terminal-words">Web Application, Prototype</p>
+        </a>
       </div>
+    
     </div>
   </div>
 </template>
