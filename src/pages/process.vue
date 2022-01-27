@@ -101,7 +101,9 @@
         <p class="location"><b> Work Inquires </b></p>
 
         <p class="lagos">Interested In Woking With Me?</p>
-        <a href="">
+        <a
+          href="https://drive.google.com/file/d/1WURwEWkDGJkR9BT7yxMWKKZAR0OjtiL7/view?usp=sharing"
+        >
           <img src="../assets/resume.svg" alt="" />
         </a>
         <p class="lagos">Contact Me <b>ademolaodetayo@gmail.com</b></p>
@@ -131,6 +133,11 @@
 
 .rocket-video {
   margin-top: -80px;
+}
+@media (max-width: 40em) {
+  .rocket-video {
+    display: none;
+  }
 }
 .wordings {
   text-align: left;

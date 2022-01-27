@@ -86,15 +86,6 @@
             advancements.
           </p>
         </div>
-
-        <div class="demola-resume">
-          <p class="worker">Interested In Working With Me?</p>
-          <a href="">
-            <img src="../assets/download-resume.svg" alt="" />
-          </a>
-        </div>
-        <p class="tools">Tools</p>
-        <br />
       </div>
       <div class="col-md-2">
         <img
@@ -105,6 +96,16 @@
         />
       </div>
     </div>
+    <div class="demola-resume">
+      <p class="worker">Interested In Working With Me?</p>
+      <a
+        href="https://drive.google.com/file/d/1WURwEWkDGJkR9BT7yxMWKKZAR0OjtiL7/view?usp=sharing"
+      >
+        <img src="../assets/download-resume.svg" alt="" />
+      </a>
+    </div>
+    <p class="tools">Tools</p>
+    <br />
     <div class="logos">
       <img src="../assets/adobe.png" alt="" class="adobe" />
       <img src="../assets/figma.png" alt="" class="figma" />
@@ -202,7 +203,7 @@
   opacity: 1;
 }
 .tools {
-  text-align: left;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 60px;

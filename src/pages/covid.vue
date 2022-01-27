@@ -108,11 +108,10 @@
   opacity: 1;
 }
 .covid-heading {
-  width: 665px;
   height: 85px;
   text-align: left;
   font-family: "Poppins", serif;
-  font-size: 25px;
+  font-size: clamp(1em, 2vw, 2em);
   letter-spacing: 1.02px;
   color: #767676;
   text-transform: capitalize;

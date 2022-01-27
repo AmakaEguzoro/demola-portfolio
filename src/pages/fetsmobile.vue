@@ -439,11 +439,10 @@
 .fets-story {
   text-align: left;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: clamp(1em, 2vw, 1.2em);
   letter-spacing: 0.64px;
   color: #000000;
   opacity: 1;
-  width: min(500px, 60%);
 }
 .iphone-2 {
   width: 90%;
@@ -468,7 +467,7 @@
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: 17px;
+  font-size: clamp(1em, 2vw, 1.2em);
   letter-spacing: 0.64px;
   color: #000000;
   opacity: 1;

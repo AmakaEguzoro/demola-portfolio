@@ -52,7 +52,9 @@
       <br />
       <br />
       <div class="powerdeal-pic">
-        <img src="../assets/powerdeal.png" alt="" />
+        <a href="http://testsite.powerdeals.ng/">
+          <img src="../assets/powerdeal.png" alt=""
+        /></a>
       </div>
 
       <div class="users">

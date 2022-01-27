@@ -70,7 +70,9 @@
         </div>
 
         <div class="col-md-4">
-          <a>
+          <a
+            href="https://xd.adobe.com/view/798caf82-00f9-4970-9d9a-0528eedd6743-2cdf/"
+          >
             <img src="../assets/tms.png" alt="" class="tms" />
           </a>
           <br />
@@ -112,7 +114,9 @@
         </div>
 
         <div class="col-md-4">
-          <a>
+          <a
+            href="https://xd.adobe.com/view/8f9564d4-f83e-4fbe-8ab8-ecf82240caa4-dac6/"
+          >
             <img
               src="../assets/megalek.png"
               alt=""
@@ -239,6 +243,11 @@ export default {
   text-align: center;
   z-index: 1;
 }
+@media (max-width: 40em) {
+  .video-container {
+    display: none;
+  }
+}
 .video-case {
   /* position: absolute; */
   top: 0;
@@ -317,7 +326,7 @@ export default {
   width: 622px;
   text-align: left;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.5rem;
+  font-size: clamp(40px, 6vw, 70px);
   font-weight: 700;
   letter-spacing: 2.04px;
   color: #d6d6d6;
