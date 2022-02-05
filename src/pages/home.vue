@@ -302,9 +302,9 @@ export default {
   opacity: 1;
   width: min(500px, 80%);
 }
-.fettss {
+/* .fettss {
   width: min(500px, 80%);
-}
+} */
 .about-fets {
   text-align: left;
   font-family: "Poppins", sans-serif;
@@ -313,11 +313,13 @@ export default {
   color: #767676;
   text-transform: capitalize;
   opacity: 1;
-  width: min(500px, 80%);
+  width: 78%;
+  /* width: min(500px, 100%); */
 }
 .tms {
   padding-right: 70px;
   width: 100%;
+  height: 420px;
 }
 @media all and (max-width: 480px) {
   .fets-mobile {
@@ -349,5 +351,10 @@ export default {
 }
 .red-line {
   margin-top: 200px;
+}
+@media (max-width: 40em) {
+  .red-line {
+    display: none;
+  }
 }
 </style>

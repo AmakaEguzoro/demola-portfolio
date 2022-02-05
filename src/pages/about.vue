@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-md-3">
         <div class="social">
-          <a href="">
+          <a href="https://instagram.com/funmetor?utm_medium=copy_link">
             <img src="../assets/instagram.png" alt="" class="ig" />
           </a>
           <p class="handle">Funmetor</p>
@@ -25,7 +25,7 @@
         <br />
         <br />
         <div class="social">
-          <a href="">
+          <a href="http://linkedin.com/in/odetayo-ademola">
             <img src="../assets/linkedin.png" alt="" class="ig" />
           </a>
           <p class="handle">Odetayo Ademola</p>
@@ -33,7 +33,7 @@
         <br />
         <br />
         <div class="social">
-          <a href="">
+          <a href="https://twitter.com/demochlala?s21">
             <img src="../assets/twitter.png" alt="" class="ig" />
           </a>
           <p class="handle">Demochlala</p>
@@ -82,6 +82,14 @@
             customer opinion-centric. I can brainstorm and identify design and
             User experience problems and proffer sustainable solutions.
           </p>
+          <div class="demola-resume">
+            <p class="worker">Interested In Working With Me?</p>
+            <a
+              href="https://drive.google.com/file/d/1WURwEWkDGJkR9BT7yxMWKKZAR0OjtiL7/view?usp=sharing"
+            >
+              <img src="../assets/download-resume.svg" alt="" />
+            </a>
+          </div>
         </div>
       </div>
       <div class="col-md-2">
@@ -93,14 +101,7 @@
         />
       </div>
     </div>
-    <div class="demola-resume">
-      <p class="worker">Interested In Working With Me?</p>
-      <a
-        href="https://drive.google.com/file/d/1WURwEWkDGJkR9BT7yxMWKKZAR0OjtiL7/view?usp=sharing"
-      >
-        <img src="../assets/download-resume.svg" alt="" />
-      </a>
-    </div>
+
     <br />
     <p class="tools">Tools</p>
 
@@ -248,5 +249,8 @@
   color: #626060;
   text-transform: capitalize;
   opacity: 1;
+}
+.selfie {
+  float: left;
 }
 </style>

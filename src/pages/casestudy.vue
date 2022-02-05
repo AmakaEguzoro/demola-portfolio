@@ -36,31 +36,36 @@
         <p class="function">Web Application, Case Study</p>
       </div>
       <p class="explain">
-      Power Deal Is An Electricity Bill Payment Service That Enables You Recharge And Buy Power Conveniently.
+        Power Deal Is An Electricity Bill Payment Service That Enables You
+        Recharge And Buy Power Conveniently.
       </p>
     </div>
 
     <div class="row extra">
-    
       <div class="col-md-6 terminal">
-        <a href="https://xd.adobe.com/view/798caf82-00f9-4970-9d9a-0528eedd6743-2cdf/">
-
-      
-        <img src="../assets/tms.png" class="tms-image" alt="" />
-        <p class="project-title">Terminal Management Dashboard</p>
-        <p class="terminal-words">
-       Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam Voluptua. At Vero Eos Et Accusam Et Justo Duo Dolores Et Ea Rebum. Stet Clita Kasd Gubergren, No Sea Takimata Sanctus Est Lorem Ipsum Dolor Sit Amet. Lorem Ipsum Dolor Sit Amet, Consetetur
-        </p>
-          </a>
-      </div>
-      <div class="col-md-6 uba">
-        <a href="https://xd.adobe.com/view/8f9564d4-f83e-4fbe-8ab8-ecf82240caa4-dac6/">
-        <img src="../assets/megalek.png" class="megalek-image" alt="" />
-        <p class="project-title">MEGALEK HOSPITAL TMS</p>
-        <p class="terminal-words">Web Application, Prototype</p>
+        <a
+          href="https://xd.adobe.com/view/798caf82-00f9-4970-9d9a-0528eedd6743-2cdf/"
+        >
+          <img src="../assets/tms.png" class="tms-image" alt="" />
+          <p class="project-title terminal-title">
+            Terminal Management Dashboard
+          </p>
+          <p class="terminal-words terminal-title">
+            This web application is used to monitor transactions, create
+            settlements, and user managements
+          </p>
         </a>
       </div>
-    
+      <br />
+      <div class="col-md-6 uba">
+        <a
+          href="https://xd.adobe.com/view/8f9564d4-f83e-4fbe-8ab8-ecf82240caa4-dac6/"
+        >
+          <img src="../assets/megalek.png" class="megalek-image" alt="" />
+          <p class="project-title">MEGALEK HOSPITAL TMS</p>
+          <p class="terminal-words">Web Application, Prototype</p>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -131,12 +136,17 @@
   color: #767676;
   text-transform: capitalize;
   opacity: 1;
-  width: min(500px, 80%);
+  width: 100%;
+  /* width: min(500px, 80%); */
 }
 /* .terminal {
   float: right;
   position: relative;
 } */
+.terminal-title {
+  float: right;
+  /* width: 50%; */
+}
 .terminal-words {
   width: 400px;
   font-family: "Poppins", sans-serif;
@@ -145,7 +155,8 @@
   color: #767676;
   text-transform: capitalize;
   opacity: 1;
-  width: min(500px, 80%);
+  width: 80%;
+  /* width: min(500px, 80%); */
 }
 .project-title {
   font-family: "Montserrat", sans-serif;
@@ -159,6 +170,8 @@
 }
 .tms-image {
   width: 60%;
+  float: right;
+  margin-right: 30px;
 }
 @media all and (max-width: 480px) {
   .tms-image {
@@ -173,8 +186,7 @@
     width: 100%;
   }
 }
-/* .extra {
-  padding-left: 100px;
-  padding-right: 100px;
-} */
+.extra {
+  align-content: center;
+}
 </style>
