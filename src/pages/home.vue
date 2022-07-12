@@ -5,7 +5,7 @@
     <br />
     <!-- about demola  -->
     <div class="row about">
-      <div class="col-md-6">
+      <div class="col-md-6 my-intro">
         <h1
           class="occupation writer"
           data-toggle="animation"
@@ -18,7 +18,7 @@
         <h1 class="occupation ux-designer">Ux Designer.</h1>
       </div>
 
-      <div class="col-md-6 video-container">
+      <div class="col-md-6 dp video-container">
         <a>
           <img
             src="../assets/odetayo-ademola.png"
@@ -71,7 +71,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mobile-tms">
           <a
             href="https://xd.adobe.com/view/798caf82-00f9-4970-9d9a-0528eedd6743-2cdf/"
           >
@@ -355,6 +355,54 @@ export default {
 @media (max-width: 40em) {
   .red-line {
     display: none;
+  }
+}
+
+@media (max-width: 40em) {
+  .dp {
+    display: none;
+  }
+}
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+  .body {
+    background-color: #f5f5dd;
+    padding-left: 15px;
+  }
+  .about,
+  .projects {
+    padding-left: 20px;
+  }
+
+  .project-highlight {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-top: 100px;
+  }
+  .mobile-fets {
+    width: 100%;
+  }
+  .fets-title {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.58px;
+    color: #b3aeae;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .about-fets {
+    width: 100%;
+  }
+  .mobile-tms {
+    width: 100%;
+  }
+
+  .tms {
+    border-radius: 7px;
+    width: 120%;
   }
 }
 </style>
