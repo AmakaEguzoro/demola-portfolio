@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="case-study">
     <div>
       <h1 class="head">Case Studies</h1>
     </div>
@@ -24,7 +24,7 @@
       </p>
     </div>
 
-    <div class="fets-project">
+    <div class="fets-project powerdeal">
       <router-link to="/powerdeal">
         <img src="../assets/powerdeal.png" alt="" class="fets-mobile"
       /></router-link>
@@ -70,7 +70,7 @@
   </div>
 </template>
 <style>
-.body {
+.case-study {
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -89,11 +89,11 @@
   transition: width 1s, height 1s;
   width: 100%;
 }
-@media all and (max-width: 480px) {
+/* @media all and (max-width: 480px) {
   .fets-mobile {
     width: 100%;
   }
-}
+} */
 
 .fets-mobile:hover {
   height: 430px;
@@ -188,5 +188,46 @@
 }
 .extra {
   align-content: center;
+}
+/* mobile  */
+@media screen and (max-width: 767px) {
+  .case-study {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .fets-mobile {
+    width: 100%;
+  }
+  .fets-project {
+    width: 100%;
+  }
+  .the-title {
+    display: flex;
+    justify-content: space-between;
+    width: min(500px, 100%);
+  }
+  .powerdeal {
+    margin-top: -230px;
+  }
+  .terminal {
+    margin-top: -320px;
+    padding-left: 20px;
+  }
+  .tms-image {
+    float: left;
+    width: 105%;
+  }
+  .terminal-title {
+    float: left;
+  }
+  .terminal-words {
+    width: 100%;
+  }
+  .uba {
+    margin-top: 70px;
+  }
+  .megalek-image {
+    width: 100%;
+  }
 }
 </style>

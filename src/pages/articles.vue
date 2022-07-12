@@ -117,4 +117,6 @@
   text-transform: capitalize;
   opacity: 1;
 }
+@media screen and (max-width: 767px) {
+}
 </style>
