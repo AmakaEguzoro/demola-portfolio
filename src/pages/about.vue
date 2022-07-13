@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="about">
     <br />
     <br />
     <div>
@@ -15,7 +15,7 @@
     </div>
     <br /><br />
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 social-class">
         <div class="social">
           <a href="https://instagram.com/funmetor?utm_medium=copy_link">
             <img src="../assets/instagram.png" alt="" class="ig" />
@@ -116,7 +116,7 @@
   </div>
 </template>
 <style>
-.body {
+.about {
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -252,5 +252,39 @@
 }
 .selfie {
   float: left;
+}
+@media screen and (max-width: 767px) {
+  .about {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .social-class {
+    margin-bottom: 50px;
+  }
+  .demola-resume {
+    margin-bottom: 30px;
+  }
+  .logos {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .adobe {
+    width: 42px;
+    height: 51px;
+  }
+  .figma {
+    width: 109px;
+    height: 51px;
+  }
+  .sketch {
+    width: 95px;
+    height: 51px;
+  }
+  .zeplin {
+    width: 62px;
+    height: 51px;
+  }
 }
 </style>
