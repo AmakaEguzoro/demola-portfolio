@@ -6,7 +6,7 @@
         width="200px"
         height="45px"
         alt=""
-        class="back-to"
+        class="back-too"
       />
     </router-link>
     <br />
@@ -19,9 +19,9 @@
           <p class="mobile-app">Case Study, Mobile App, Website Development</p>
           <p class="day-created">March 13,2021</p>
         </div>
-        <h1 class="app-name">FETS MOBILE APPLICATION</h1>
+        <h1 class="app-namee">FETS MOBILE APPLICATION</h1>
         <br />
-        <p class="fets-story">
+        <p class="fets-storyy">
           FETS mobile app is designed to help solve day to day banking
           operations and other transactions like generating electricity tokens,
           airtimes, and utility bill payments on the go
@@ -41,7 +41,7 @@
           />
         </div>
 
-        <p class="task-sentence">
+        <p class="task-sentencee">
           Rebuild a unified system that emphasise on the agency banking activity
           such as value added service, transfers and withdrawal
         </p>
@@ -112,12 +112,12 @@
       </div>
     </div>
     <div>
-      <img src="../assets/paragraph.svg" class="para" alt="" />
+      <img src="../assets/paragraph.svg" class="paragraph" alt="" />
     </div>
     <br />
     <p class="chal">Challenges</p>
     <p class="challenge">Problems + Challenges Encountered</p>
-    <div class="some-challenges cv">
+    <div class="some-challenges my-cv">
       <p class="probandchal">Problems And Challenges Encountered</p>
       <p class="probsentence">
         FETS is one of the major Value Added Service (VAS) Provider In Nigeria,
@@ -135,7 +135,7 @@
       </div>
       <br />
       <br />
-      <div class="fet-wallet">
+      <div class="fet-wallett">
         <img
           src="../assets/fets-wallet.png"
           width="30%"
@@ -147,7 +147,7 @@
     </div>
     <p class="chal">Why They Trusted Me</p>
     <p class="approach">My Design Approach</p>
-    <div class="cv">
+    <div class="my-cv">
       <p class="discover">01.DISCOVER</p>
       <p class="des-approach">My Design Approch</p>
       <p class="des-approach-statement">
@@ -173,7 +173,7 @@
         </div>
       </div>
     </div>
-    <div class="cv">
+    <div class="my-cv">
       <p class="des-approach">Companies Profiling</p>
       <p class="des-approach-statement">
         It is important to profile a company as huge in equity size and as to
@@ -182,7 +182,7 @@
       <img src="../assets/fetslimited.png" class="fetslimited" alt="" />
     </div>
 
-    <div class="cv">
+    <div class="my-cv">
       <p class="des-approach">Competitive Analysis</p>
       <p class="des-approach-statement">
         Starting off, I compared other modern-day generation agency banks apps
@@ -197,7 +197,7 @@
         experience.
       </p>
     </div>
-    <div class="cv">
+    <div class="my-cv">
       <p class="likeminds">Likeminds Competition</p>
       <div class="row">
         <div class="col-md-3">
@@ -250,7 +250,7 @@
         </div>
       </div>
     </div>
-    <div class="cv">
+    <div class="my-cv">
       <p class="des-approach">Idea Validation + Hypothesis (Surveys)</p>
       <p class="des-approach-statement">
         Most often the ideas, business needs, and problems highlighted by the
@@ -265,7 +265,7 @@
       </div>
     </div>
 
-    <div class="cv">
+    <div class="my-cv">
       <br />
       <br />
       <br />
@@ -311,7 +311,7 @@
         </div>
       </div>
     </div>
-    <div class="cv">
+    <div class="my-cv">
       <p class="define-number">02. DEFINE</p>
       <p class="definee">Define</p>
       <p class="define-statement">
@@ -344,7 +344,7 @@
         </tr>
       </table>
     </div>
-    <div class="cv">
+    <div class="my-cv">
       <br />
       <br />
       <p class="definee">Site Map & Achetiechture</p>
@@ -352,7 +352,7 @@
     </div>
     <p class="chal">The Design</p>
     <p class="approach">Design</p>
-    <div class="cv">
+    <div class="my-cv">
       <p class="discover">03. DESIGN</p>
       <p class="des-approach-statement">
         The design phases kicked off by planning the information architecture of
@@ -375,7 +375,7 @@
       <br />
       <img src="../assets/old and new.png" class="sketches-pic" alt="" />
     </div>
-    <div class="cv">
+    <div class="my-cv">
       <br />
       <br />
       <p class="discover">04. TEST</p>
@@ -399,7 +399,7 @@
   padding-left: 70px;
   padding-right: 70px;
 }
-.back-to {
+.back-too {
   float: right;
 }
 
@@ -429,7 +429,7 @@
   text-transform: capitalize;
   opacity: 1;
 }
-.app-name {
+.app-namee {
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -439,7 +439,7 @@
   text-transform: uppercase;
   opacity: 1;
 }
-.fets-story {
+.fets-storyy {
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -465,7 +465,7 @@
   text-transform: capitalize;
   opacity: 1;
 }
-.task-sentence {
+.task-sentencee {
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
@@ -619,7 +619,7 @@
   color: #000000;
   opacity: 1;
 }
-.para {
+.paragraph {
   margin: auto;
   width: 70%;
 }
@@ -690,7 +690,7 @@
     width: 100%;
   }
 }
-.fet-wallet {
+.fet-wallett {
   display: flex;
 }
 .approach {
@@ -791,7 +791,7 @@
   margin: auto;
   width: 60%;
 }
-.cv {
+.my-cv {
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -902,36 +902,32 @@ td {
   margin: auto;
   width: 30%;
 }
-@media all and (max-width: 480px) {
+/* @media all and (max-width: 480px) {
   .iphone-2 {
     width: 100%;
   }
-}
+} */
 /* mobile  */
 @media screen and (max-width: 767px) {
   .main-page {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .back-to {
+  .back-too {
     float: left;
   }
   .fets-about {
     display: flex;
     justify-content: space-between;
   }
-  .app-name {
-    font-size: 2rem;
+  .app-namee {
+    font-size: 3rem;
+    letter-spacing: 3px;
   }
-  .fets-story {
-    text-align: left;
-    font-family: "Poppins", sans-serif;
+  .fets-storyy {
     font-size: clamp(1em, 2vw, 1.2em);
-    letter-spacing: 0.64px;
-    color: #000000;
-    opacity: 1;
   }
-  .cv {
+  .my-cv {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -973,6 +969,23 @@ td {
     width: 100%;
   }
   table {
+    display: none;
+  }
+  .paragraph {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .users {
+    padding-left: 20px;
+  }
+  .single-iphone {
+    float: left;
+    width: 70%;
+  }
+  .thanks {
+    display: none;
+  }
+  .fet-wallett {
     display: none;
   }
 }
