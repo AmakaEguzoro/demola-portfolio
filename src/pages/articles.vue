@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="articles">
     <div class="top">
       <h1 class="article">Articles</h1>
       <!-- <img src="../assets/pencil.png" height="200px" alt="" class="pencil" /> -->
@@ -18,13 +18,7 @@
     </div>
     <br />
     <div class="row">
-      <div class="col-md-4">
-        <p class="heading"><b>How to stay productive</b></p>
-        <p class="write-up">How I Stay Productive Working Remotely.</p>
-        <router-link to="" class="reads"> Read More</router-link>
-        <img src="../assets/small-arrow.svg" alt="" />
-      </div>
-      <div class="col-md-4">
+      <div class="col-md-4 productive">
         <p class="heading"><b>Covid-19 Overturn</b></p>
         <p class="write-up">
           Covid-19 Made Almost Techie’s More Active And Valuable
@@ -32,7 +26,14 @@
         <router-link to="/covid" class="reads">Read More</router-link
         ><img src="../assets/small-arrow.svg" alt="" />
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 productive">
+        <p class="heading"><b>How to stay productive</b></p>
+        <p class="write-up">How I Stay Productive Working Remotely.</p>
+        <router-link to="" class="reads"> Read More</router-link>
+        <img src="../assets/small-arrow.svg" alt="" />
+      </div>
+
+      <div class="col-md-4 productive">
         <p class="heading"><b>Focus</b></p>
         <p class="write-up">The Ultimate Productivity Hack Of Saying No</p>
         <router-link to="" class="reads"> Read More</router-link
@@ -45,7 +46,7 @@
   </div>
 </template>
 <style>
-.body {
+.articles {
   padding-top: 60px;
   padding-left: 60px;
   padding-right: 60px;
@@ -118,5 +119,17 @@
   opacity: 1;
 }
 @media screen and (max-width: 767px) {
+  .articles {
+    padding-left: 20px;
+  }
+  .pencil-video {
+    display: none;
+  }
+  .season {
+    float: left;
+  }
+  .productive {
+    margin-bottom: 50px;
+  }
 }
 </style>
