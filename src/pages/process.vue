@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="contents">
     <br />
     <br />
     <div class="process-heading">
@@ -29,7 +29,7 @@
     <br />
     <br />
     <br />
-    <div class="row">
+    <div class="row process-information">
       <div class="col-md-3 info">
         <div><img src="../assets/dotted-arrow.svg" alt="" class="line" /></div>
         <div>
@@ -112,7 +112,7 @@
   </div>
 </template>
 <style>
-.content {
+.contents {
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -217,5 +217,20 @@
   color: #292525;
   text-transform: capitalize;
   opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  .contents {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .design-process {
+    display: none;
+  }
+  .process-information {
+    margin-top: -100px;
+  }
+  .info {
+    margin-bottom: 40px;
+  }
 }
 </style>
