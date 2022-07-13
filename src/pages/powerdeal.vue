@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="main-pagee">
     <router-link to="/casestudy">
       <img
         src="../assets/back button.png"
@@ -21,7 +21,7 @@
         </div>
         <h1 class="app-name">POWERDEALS WEB APPLICATION</h1>
         <br />
-        <p class="fets-story">
+        <p class="fets-storyy">
           Power Deals is a new product from ITEX. This product enables customers
           to pay the electrical bill. The Power Distribution Companies in
           Nigeria have over ten Discos nationwide. This solution is for One-off
@@ -58,9 +58,9 @@
       <br />
       <br />
       <br />
-      <div class="powerdeal-pic">
+      <div>
         <a href="http://testsite.powerdeals.ng/">
-          <img src="../assets/powerdeal.png" alt=""
+          <img src="../assets/powerdeal.png" class="powerdeal-laptop" alt=""
         /></a>
       </div>
 
@@ -264,7 +264,7 @@
   </div>
 </template>
 <style>
-.body {
+.main-pagee {
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -308,7 +308,7 @@
   text-transform: uppercase;
   opacity: 1;
 }
-.fets-story {
+.fets-storyy {
   width: 600px;
   text-align: left;
   font-family: "Poppins", sans-serif;
@@ -410,9 +410,9 @@
   text-transform: capitalize;
   opacity: 1;
 }
-.powerdeal-pic {
+.powerdeal-laptop {
   margin: auto;
-  width: 50%;
+  width: 100%;
 }
 .my-role {
   text-align: left;
@@ -769,6 +769,90 @@ td {
   margin: auto;
   width: 30%;
 }
+/* mobile  */
 @media screen and (max-width: 767px) {
+  .main-pagee {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .back-to {
+    float: left;
+  }
+  .fets-about {
+    display: flex;
+    justify-content: space-between;
+  }
+  .app-name {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+  .fets-storyy {
+    font-size: clamp(1em, 2vw, 1.2em);
+  }
+  .cv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .some-challenges {
+    padding-top: 10px;
+  }
+  .chal {
+    font: 18px Montserrat;
+    letter-spacing: 1px;
+    color: #84848439;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .challenge {
+    font: 18px Gloria Hallelujah;
+    letter-spacing: 0.9px;
+    color: #d82466;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .probandchal {
+    text-align: left;
+    font: 18px Poppins;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .probsentence {
+    text-align: left;
+    font: 18px Poppins;
+    letter-spacing: 0.58px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .issues-pic {
+    width: 100%;
+  }
+  table {
+    display: none;
+  }
+  .para {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .users {
+    padding-left: 20px;
+  }
+  .single-iphone {
+    float: left;
+    width: 70%;
+  }
+  .thanks {
+    display: none;
+  }
+  .fet-wallet {
+    display: none;
+  }
+  .powerdeal-laptop {
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 </style>
