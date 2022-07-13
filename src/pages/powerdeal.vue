@@ -783,12 +783,30 @@ td {
     justify-content: space-between;
   }
   .app-name {
+    width: 100%;
     font-size: 3rem;
     letter-spacing: 3px;
   }
   .fets-storyy {
-    font-size: clamp(1em, 2vw, 1.2em);
+    width: 100%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.64px;
+    color: #000000;
+    opacity: 1;
   }
+  .task-sentence {
+    width: 100%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 17px;
+    letter-spacing: 0.64px;
+    color: #000000;
+    opacity: 1;
+  }
+
   .cv {
     padding-left: 20px;
     padding-right: 20px;
