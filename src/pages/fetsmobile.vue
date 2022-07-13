@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="main-page">
     <router-link to="/casestudy">
       <img
         src="../assets/back button.png"
@@ -22,7 +22,9 @@
         <h1 class="app-name">FETS MOBILE APPLICATION</h1>
         <br />
         <p class="fets-story">
-         FETS mobile app is designed to help solve day to day banking operations and other transactions like generating electricity tokens, airtimes, and utility bill payments on the go
+          FETS mobile app is designed to help solve day to day banking
+          operations and other transactions like generating electricity tokens,
+          airtimes, and utility bill payments on the go
         </p>
         <br />
 
@@ -88,16 +90,19 @@
           <div class="col-md-6">
             <p class="target">Primary Given Target Audience</p>
 
-            
             <p class="target-sentence">
-
-
-              The FETS app is used by almost all demography of people. It was mandatory to define a specific target audience.
-               <br /><br />
-                We started by asking and defining the scope of FETS future envisioned. The only thing I could majorly point out was most entrepreneurs in Nigeria are you minds having a kiosk for agency banking, and people like me and other young champs that believe in tech ( maybe lazy Nigerian youth as they say lol) 
-    
+              The FETS app is used by almost all demography of people. It was
+              mandatory to define a specific target audience.
               <br /><br />
-           However, I concluded that FETS’ primary target audience was the young Millenials to generation Z.
+              We started by asking and defining the scope of FETS future
+              envisioned. The only thing I could majorly point out was most
+              entrepreneurs in Nigeria are you minds having a kiosk for agency
+              banking, and people like me and other young champs that believe in
+              tech ( maybe lazy Nigerian youth as they say lol)
+
+              <br /><br />
+              However, I concluded that FETS’ primary target audience was the
+              young Millenials to generation Z.
             </p>
           </div>
           <div class="col-md-6">
@@ -120,7 +125,7 @@
         yet their mobile APP Yet Failed The Markets With Same Effect
       </p>
       <div class="row">
-        <p class="col-md-3 initial-design">Intial/Existing Design:</p>
+        <p class="col-md-3 initial-design">Initial/Existing Design:</p>
         <p class="col-md-9 initial-design-statement">
           This was the first attempt on the design where I discovered no proper
           design process was followed and so there were too many hurdles and
@@ -180,7 +185,16 @@
     <div class="cv">
       <p class="des-approach">Competitive Analysis</p>
       <p class="des-approach-statement">
-     Starting off, I compared other modern-day generation agency banks apps which have directly and indirectly induced the culture of transfer, withdrawal, and vas into their system studied to gain inspiration, highlighted similar features on other sites that are similar to the features highlighted in the user stories provided by the project management office. I Compared features on each site and identified opportunities for fets mobile app. This includes expert knowledge and a deeper understanding of their business model. I identified the overall navigation and onboarding process to bring a more exciting user experience.
+        Starting off, I compared other modern-day generation agency banks apps
+        which have directly and indirectly induced the culture of transfer,
+        withdrawal, and vas into their system studied to gain inspiration,
+        highlighted similar features on other sites that are similar to the
+        features highlighted in the user stories provided by the project
+        management office. I Compared features on each site and identified
+        opportunities for fets mobile app. This includes expert knowledge and a
+        deeper understanding of their business model. I identified the overall
+        navigation and onboarding process to bring a more exciting user
+        experience.
       </p>
     </div>
     <div class="cv">
@@ -239,7 +253,10 @@
     <div class="cv">
       <p class="des-approach">Idea Validation + Hypothesis (Surveys)</p>
       <p class="des-approach-statement">
-       Most often the ideas, business needs, and problems highlighted by the product owner and stakeholders are not always the exact problem and as a designer, I have to ensure I am actually solving the right problem, by conducting Idea validation
+        Most often the ideas, business needs, and problems highlighted by the
+        product owner and stakeholders are not always the exact problem and as a
+        designer, I have to ensure I am actually solving the right problem, by
+        conducting Idea validation
       </p>
       <div class="surveys">
         <img src="../assets/validation.png" width="100%" alt="" />
@@ -378,7 +395,7 @@
   </div>
 </template>
 <style>
-.body {
+.main-page {
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -416,7 +433,7 @@
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 2rem;
   letter-spacing: 2.56px;
   color: #000000;
   text-transform: uppercase;
@@ -425,7 +442,7 @@
 .fets-story {
   text-align: left;
   font-family: "Poppins", sans-serif;
-  font-size: clamp(1em, 2vw, 1.2em);
+  font-size: 18px;
   letter-spacing: 0.64px;
   color: #000000;
   opacity: 1;
@@ -449,13 +466,13 @@
   opacity: 1;
 }
 .task-sentence {
-  width: 500px;
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: medium;
-  font-size: clamp(1em, 2vw, 1.2em);
+  font-size: 17px;
   letter-spacing: 0.64px;
   color: #000000;
+  text-transform: capitalize;
   opacity: 1;
 }
 .client {
@@ -890,7 +907,73 @@ td {
     width: 100%;
   }
 }
-
+/* mobile  */
 @media screen and (max-width: 767px) {
+  .main-page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .back-to {
+    float: left;
+  }
+  .fets-about {
+    display: flex;
+    justify-content: space-between;
+  }
+  .app-name {
+    font-size: 2rem;
+  }
+  .fets-story {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1em, 2vw, 1.2em);
+    letter-spacing: 0.64px;
+    color: #000000;
+    opacity: 1;
+  }
+  .cv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .some-challenges {
+    padding-top: 10px;
+  }
+  .chal {
+    font: 18px Montserrat;
+    letter-spacing: 1px;
+    color: #84848439;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .challenge {
+    font: 18px Gloria Hallelujah;
+    letter-spacing: 0.9px;
+    color: #d82466;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .probandchal {
+    text-align: left;
+    font: 18px Poppins;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .probsentence {
+    text-align: left;
+    font: 18px Poppins;
+    letter-spacing: 0.58px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .issues-pic {
+    width: 100%;
+  }
+  table {
+    display: none;
+  }
 }
 </style>
