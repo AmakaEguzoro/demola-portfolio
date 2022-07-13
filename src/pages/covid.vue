@@ -148,4 +148,17 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .covid-headline {
+    font-size: 50px;
+  }
+  .year,
+  .turn-over {
+    font-size: 50px;
+  }
+}
 </style>
